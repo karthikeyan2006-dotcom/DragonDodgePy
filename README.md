@@ -62,7 +62,7 @@ Everything is driven by a single webcam. Your hip position moves the player left
 |---|---|
 | Python | 3.9 – 3.12 (MediaPipe wheels are the limiting factor — 3.11 is the safest bet) |
 | OS | Linux, macOS, Windows, Raspberry Pi OS 64-bit |
-| GPU | Anything Panda3D can open a window on; tested against a Pi 4 |
+| GPU | Anything Panda3D can open a window on; tuned for a Raspberry Pi 4 |
 | Camera | Any UVC webcam for motion control (optional — keyboard works without one) |
 
 Dependencies (see `requirements.txt`): `panda3d`, `panda3d-gltf`, `opencv-python`, `mediapipe`, `numpy`.
